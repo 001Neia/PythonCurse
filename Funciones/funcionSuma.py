@@ -5,10 +5,15 @@ def saber_mayor_edad(age):
         return "Usuario MENOR de edad!!!"
     else:
         return  "Usuario extraño!!!"
+def resta_edad(age):
+    operacion = age - 10
+    return operacion
 n = int(input("Ingrese edad del USUARIO: "))
 def sumar_10_a_tu_edad(age):
     operacion = age + 10
     return operacion
 print(saber_mayor_edad(n))
 print(sumar_10_a_tu_edad(n))
+print(resta_edad(n))
+
     
